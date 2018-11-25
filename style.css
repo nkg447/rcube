@@ -9,7 +9,8 @@
   width: 400px;
   height: 400px;
   transform-style: preserve-3d;
-  animation: rotateHorizontal 4s linear infinite;
+  transition-property: transform;
+  transition-duration: 1s;
 }
 
 .face {
@@ -106,6 +107,6 @@
 
 @keyframes rotateHorizontal {
   100% {
-    transform: rotateX(360deg) rotateY(360deg);
+    transform: rotateY(90deg);
   }
 }
