@@ -1,10 +1,10 @@
-.container {
+#container {
   width: 400px;
   height: 400px;
   margin: 150px auto 0;
   perspective: 1200px;
 }
-.cube {
+#cube {
   position: relative;
   width: 400px;
   height: 400px;
@@ -17,8 +17,6 @@
   width: 400px;
   height: 400px;
   box-sizing: border-box;
-
-  padding: 120px 0;
 
   background-color: transparent;
   opacity: 0.8;
