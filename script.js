@@ -83,4 +83,9 @@ cube.ontouchend = e => {
   };
   return cube.onmouseup(event);
 };
+
+document.getElementById("rotate").onclick = () => {
+  cube.style.animation = "rotateHorizontal 4s linear infinite";
+};
+
 autoSize();
