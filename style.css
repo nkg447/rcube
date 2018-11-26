@@ -1,3 +1,6 @@
+body {
+  background-color: darkgray;
+}
 #container {
   width: 400px;
   height: 400px;
@@ -20,7 +23,7 @@
   box-sizing: border-box;
 
   background-color: transparent;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .face .box {
@@ -96,10 +99,10 @@
   background-color: blue;
 }
 #right .box {
-  background-color: orangered;
+  background-color: rgb(247, 116, 9);
 }
 #top .box {
-  background-color: black;
+  background-color: white;
 }
 #bottom .box {
   background-color: red;
