@@ -3,6 +3,7 @@ body {
   position: fixed;
   overflow-y: scroll;
   width: 100%;
+  overscroll-behavior: contain;
 }
 #container {
   width: 400px;
