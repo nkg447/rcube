@@ -7,11 +7,17 @@ body {
   height: 400px;
   margin: 150px auto 0;
   perspective: 1200px;
+  perspective-origin: -100% -100%;
+  animation: example-scene 20s linear infinite;
 }
 #cube {
   position: relative;
   width: 400px;
   height: 400px;
+
+  display: flex;
+  flex-wrap: wrap;
+
   transform-style: preserve-3d;
   transition-property: transform;
   transition-duration: 1s;
@@ -110,7 +116,7 @@ body {
 }
 
 #rotate {
-  margin-top: 10%;
+  margin-top: 20%;
   margin-left: 50%;
 }
 
@@ -119,3 +125,20 @@ body {
     transform: rotateY(360deg) rotateX(360deg);
   }
 }
+/* @keyframes example-scene {
+  0% {
+    perspective-origin: -100% -100%;
+  }
+  25% {
+    perspective-origin: 200% -100%;
+  }
+  50% {
+    perspective-origin: 200% 200%;
+  }
+  75% {
+    perspective-origin: -100% 200%;
+  }
+  100% {
+    perspective-origin: -100% -100%;
+  }
+} */
