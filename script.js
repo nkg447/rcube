@@ -69,4 +69,18 @@ cube.onmouseup = e => {
   console.log(transformations);
 };
 
+cube.ontouchstart = e => {
+  var event = {
+    screenX: e.changedTouches[0].clientX,
+    screenY: e.changedTouches[0].clientY
+  };
+  return cube.onmousedown(event);
+};
+cube.ontouchend = e => {
+  var event = {
+    screenX: e.changedTouches[0].clientX,
+    screenY: e.changedTouches[0].clientY
+  };
+  return cube.onmouseup(event);
+};
 autoSize();

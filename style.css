@@ -1,5 +1,8 @@
 body {
   background-color: darkgray;
+  position: fixed;
+  overflow-y: scroll;
+  width: 100%;
 }
 #container {
   width: 400px;
