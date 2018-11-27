@@ -1,5 +1,5 @@
 body {
-  background-color: darkgray;
+  background-color: rgba(29, 28, 28, 0.959);
   overscroll-behavior: contain;
 }
 #container {
@@ -29,8 +29,8 @@ body {
   height: 400px;
   box-sizing: border-box;
 
-  background-color: transparent;
-  opacity: 0.9;
+  background-color: rgba(29, 28, 28, 0.959);
+  /* opacity: 0.9; */
 }
 
 .face .box {
@@ -38,7 +38,7 @@ body {
   height: 33.33%;
   background-color: grey;
 
-  border-radius: 30px;
+  border-radius: 20%;
 
   position: absolute;
 }
